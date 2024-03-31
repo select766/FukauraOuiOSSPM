@@ -8,7 +8,7 @@
 
 # ビルド
 
-Xcode 16.0, cmake 3.24.1
+Xcode 15.3, cmake 3.29.0
 
 ```
 git submodule init
@@ -28,6 +28,10 @@ cd build
 # git　タグ
 
 パッケージのバージョンはgitのタグで識別される。`1.2.3`のように3つの数字で表す。
+
+`10.x`: C++側のsocketで直接外部と通信
+
+`11.x`: Swift側にUSIメッセージを転送し、Swift側で外部と通信
 
 # ライセンス
 
